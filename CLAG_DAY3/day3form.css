@@ -1,0 +1,12 @@
+h1{border-style: solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+}
+body{
+    background-color: rgb(168, 232, 230)
+}
+form{
+    border: solid;
+    background-color: white;
+    border-color: white;
+}

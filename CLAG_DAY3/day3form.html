@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day three form</title>
+    <link rel="stylesheet" href="day3form.css">
+</head>
+<body>
+
+    <h1 align="center">FORM</h1>
+    <form align="center" action="index.php" method="get" >
+        <label for="username">Username:</label><br>
+        <input type="text" required name="username"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" required name="password"><br><br>
+        <label for="religion">Religion:</label><br>
+        <select>
+            <option>Bhuddist</option>
+            <option>Traditionalist</option>
+            <option>Ominist</option>
+        </select><br><br>
+        <label for="gender">Gender:</label><br>
+        <label for="male"><input type="radio" name="gender" id="male"> Male</label>
+        <label for="female"><input type="radio" name="gender" id="female">female</label><br><br>
+        <label for="i agree"><input type="checkbox" id="i agree" name="consent">I agree</label><br><br>
+        <button>SUBMIT</button>
+    </form>
+    
+</body>
+</html>
